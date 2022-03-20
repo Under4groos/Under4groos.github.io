@@ -1,10 +1,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .wrapper {
-    display: inline-flex;
-    float: right;
-    margin-top: 20px;
-    margin-right: 20px;
+    /* display: inline-flex; */
+    float: left;
+    margin-top: 200px;
+    margin-left: 5px;
 }
 *:focus,
 *:active {
@@ -27,9 +27,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
     cursor: pointer;
-    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 0.1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
   
 .wrapper .tooltip {
