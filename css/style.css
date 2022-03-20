@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html,
+body {
+  height:100%;
+  background-color: #ffffff;
+  /* background-image: url(""); */
+}
+header{
+    background-color: #F1F3F4;
+}
+.content{
+    width: 100%;
+     
+    display: flex;
+    flex-direction: column;
+}
+.imgs{
+    
+    width: 200px;
+}
+ 
+.center_top {
+    
+    margin: auto;  
+    
+}
+a{
+    font-family: Lucida Sans Unicode; 
+    font-size: 14.45px;
+    line-height: 0px;
+    margin: 10px 5px 10px 0px;
+}
+h2{
+    margin-bottom: 10px;
+}
+p{
+    margin-bottom: 10px;
+     
+    color: #39394B;
+    font-size: 17px;
+    font-family: Lucida Sans Unicode; 
+}
+.a_14{
+    font-family: Lucida Sans Unicode; 
+    color: #39394B;
+    font-size: 14px;
+}
+iframe{
+    width: 400px; height: 200px;
+    margin-right: 20px;
+}
+.a_37{
+    font-family: Lucida Sans Unicode; 
+    color: #39394B;
+    font-size: 32px;
+}
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    overflow: hidden;
+    background-color: #333333;
+  }
+li{
+    list-style: none;
+}
+.li_s{
+    opacity: .7;
+}
+.div_cm{
+    margin-bottom: 10px;
+}
+.div_cm_width{ 
+    margin-top: 10px; width: 80%;
+}
+.div_m_50b{
+    margin-bottom: 50px;
+}
+.div_m_20b{
+    margin-bottom: 20px;
+    width: 70%;
+}
+.h2_m{
+    margin: 40px 0px 30px 0px;
+}
+.center_bottom {
+    width: 400px;
+    margin: 0px 0px 30px 0px;  
+    position:absolute;  
+	bottom:0;     
+}
+
+button{
+    min-width: 100px;
+    min-height: 45px;
+    font-size: 18px; 
+    border: 0px solid;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #F6F8FA;
+    padding: 5px 10px 5px 10px;
+}
+button:hover{
+    background-color: #eeeeee;
+    border-left: 1px solid #00BFFF;
+}
+
+
+
+
+.panel_item{
+    width: 70%;
+    margin: auto; 
+    background: #ffffff;  
+    margin-bottom: 10px;
+    margin-top: 40px;
+    border-bottom: 1px solid #EDEDED;
+}
+.center{
+    margin: auto; 
+       
+    background-color: #00ff62;
+}
+ 
+.main_footer{
+    position: relative;z-index: 10; 
+    background-color: #F6F8FA; 
+    height: 100px;
+}
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:70px;   
+    /* background:#00aaff; */
+ }
+ 
