@@ -20,6 +20,7 @@ function main(){
     v.add_description_line("Кастомные прицелы в играх? Пффф.... Easy!")
     v.add_description_line("Возможности:")
     v.add_description_line("-прозрачность, смещение, цвет (вкл. alpha), размер, угол, svg, текст и еще многое другое доступно в моей программе.")
+    v.add_description_line("Полезно в играх по типу Rust.")
     add(v.GetPanel());
     
     v = new Item()
@@ -28,13 +29,10 @@ function main(){
     v.add_image("https://github.com/Under4groos/html_Images/blob/main/Sbkeyboard_LpwRUQ4Qwr.png?raw=true")
     v.add_image("https://github.com/Under4groos/html_Images/blob/main/VSTrZuJ0rf.png?raw=true")
     v.add_youtube_id("ct8fR00CQXA")
-    
     v.add_description_line("Возможности:")
     v.add_description_line("-Перемещение курсора, клик левой, правой, средней кнопкой мыши, нажатие клавиш.")
-    v.add_description_line("Полезно в играх по типу Rust.")
     add(v.GetPanel());
-
-     
+  
     v = new Item()
     v.set_price(0)
     v.set_name("AsciiImage")
