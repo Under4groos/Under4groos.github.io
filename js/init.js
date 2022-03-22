@@ -21,7 +21,6 @@ function main(){
     v.add_description_line("Возможности:")
     v.add_description_line("-прозрачность, смещение, цвет (вкл. alpha), размер, угол, svg, текст и еще многое другое доступно в моей программе.")
     v.add_description_line("Полезно в играх по типу Rust.")
-    v.add_arthur("asdads")
     add(v.GetPanel());
     
     v = new Item()
