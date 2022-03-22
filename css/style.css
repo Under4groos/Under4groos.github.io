@@ -33,6 +33,14 @@ a{
     line-height: 0px;
     margin: 10px 5px 10px 0px;
 }
+.arthur{
+    font-family: Lucida Sans Unicode; 
+    font-size: 16px;
+    line-height: 5px;
+    color: #000000;
+    font-weight: 1000;
+    margin: 10px 5px 10px 0px;
+}
 h2{
     margin-bottom: 10px;
 }
@@ -99,7 +107,7 @@ button{
     min-height: 45px;
     font-size: 18px; 
     border: 0px solid;
-    border-radius: 0px 10px 10px 0px;
+    /* border-radius: 0px 10px 10px 0px; */
     background-color: #F6F8FA;
     padding: 5px 10px 5px 10px;
 }

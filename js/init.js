@@ -21,6 +21,7 @@ function main(){
     v.add_description_line("Возможности:")
     v.add_description_line("-прозрачность, смещение, цвет (вкл. alpha), размер, угол, svg, текст и еще многое другое доступно в моей программе.")
     v.add_description_line("Полезно в играх по типу Rust.")
+    v.add_arthur("asdads")
     add(v.GetPanel());
     
     v = new Item()
@@ -37,11 +38,7 @@ function main(){
     v.set_price(0)
     v.set_name("AsciiImage")
     v.add_image("https://github.com/Under4groos/html_Images/blob/main/AsciiImage_vn6lmTsd2I.png?raw=true")
-    v.add_image("https://github.com/Under4groos/html_Images/blob/main/Code_PhJpTbHRVo.png?raw=true")
-    
+    v.add_image("https://github.com/Under4groos/html_Images/blob/main/Code_PhJpTbHRVo.png?raw=true") 
     v.add_description_line("Преобразование изображений в Ascii Art")
- 
-    add(v.GetPanel());
-    
-    
+    add(v.GetPanel());   
 }

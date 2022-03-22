@@ -3,13 +3,10 @@ class Item{
         this.images_link = [];
         this.youtube_link = [];
         this.descriptions = [];
+        this.arthurs = ["UnderKo"];
         this.name_proj = "null";
-        // цена 
         this.price = 0;
-        //
-        this.text_button_ = "Buy the product"
-
-        
+        this.text_button_ = "Buy the product"    
     }
     set_price( int ){
         this.price = int;
@@ -25,6 +22,9 @@ class Item{
     }
     add_youtube_id(str_id){
         this.youtube_link.push(str_id);
+    }
+    add_arthur(str_name){
+        this.arthurs.push(str_name)
     }
     add_description_line(str_){
         this.descriptions.push(str_);
@@ -61,6 +61,14 @@ class Item{
         }
         l = l.replace("_images_urls_", str_urls);
         str_urls = "";
+
+        for (let index = 0; index < this.arthurs.length; index++) {
+            const element = this.arthurs[index];
+            str_urls = str_urls +  this.getarthur(element) 
+        }
+        l = l.replace("_arthurs_", str_urls);
+        str_urls = "";
+
         //--------------------------------------------------------------
         for (let index = 0; index < this.youtube_link.length; index++) {
             const element = this.youtube_link[index];
@@ -71,6 +79,9 @@ class Item{
         return l
     }
 
+    getarthur(str_){
+        return "<a class=\"arthur\">_a_</a>".replace("_a_" ,str_ )
+    }
     getdesctext(str_){
         return "<p>_description_</p>".replace("_description_", str_);
     }
@@ -94,7 +105,7 @@ const htmlString =
              <ul >
                  <li class="li_s">
                      <a>by</a>
-                     <a>UnderKo</a>                                   
+                     _arthurs_                                 
                      <a>_Price_</a>
                  </li>
              </ul>
