@@ -6,10 +6,14 @@ class Item{
         this.arthurs = ["UnderKo"];
         this.name_proj = "null";
         this.price = 0;
+        this.url_dow = "";
         this.text_button_ = "Buy the product"    
     }
     set_price( int ){
         this.price = int;
+    }
+    set_dow(str_){
+        this.url_dow = str_;
     }
     set_name(str_){
         this.name_proj = str_;
@@ -41,7 +45,13 @@ class Item{
         }else{
             l = l.replace("_Price_", "");
             l = l.replace("_button_Buy_", "Download");
-            l = l.replace("_func_open_", "open_drive_google()");
+
+            if(this.url_dow != ""){
+                l = l.replace("_func_open_", 'open_url(\'' + this.url_dow + '\')');
+            }else{
+                l = l.replace("_func_open_", "open_drive_google()");
+            }
+            
         }
         
         let str_urls = "";
@@ -86,7 +96,7 @@ class Item{
         return "<p>_description_</p>".replace("_description_", str_);
     }
     getimage(str_url){
-        return " <img class=\"imgs\" src=\"_url_\"  onClick=\"view(\'_url_\')\">".replace("_url_", str_url).replace("_url_", str_url);
+        return " <img class=\"imgs\" src=\"_url_\" onClick=\"view(\'_url_\')\">".replace("_url_", str_url).replace("_url_", str_url);
     }
     getyoutube(str_id){
         // <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-raie8x2aPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
