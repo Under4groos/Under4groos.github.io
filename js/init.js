@@ -45,6 +45,13 @@ function main(){
     
     v = new Item()
     v.set_price(0)
+    v.set_name("KeyboardCheck")
+    v.set_dow("https://github.com/Under4groos/KeyboardCheck/releases/tag/v1.0")
+    v.add_description_line("Отображение нажатых клавиш на экране.")
+    add(v.GetPanel());
+    
+    v = new Item()
+    v.set_price(0)
     v.set_name("Hardware")
     v.add_image("https://github.com/Under4groos/html_Images/blob/main/SCwgCjpFpi.png?raw=true")
     v.set_dow("https://github.com/Under4groos/-Hardware/releases/tag/Hardware")
