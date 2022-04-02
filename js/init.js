@@ -52,6 +52,15 @@ function main(){
     
     v = new Item()
     v.set_price(0)
+    v.set_name("Clipboard Win 11")
+    v.set_dow("https://github.com/Under4groos/ClipboardWin11/releases/tag/v1.0")
+    v.add_description_line("Clipboard!")
+    v.add_image("https://github.com/Under4groos/html_Images/blob/main/spQFvhCLlB.png?raw=true")
+    add(v.GetPanel());
+    
+    
+    v = new Item()
+    v.set_price(0)
     v.set_name("Hardware")
     v.add_image("https://github.com/Under4groos/html_Images/blob/main/SCwgCjpFpi.png?raw=true")
     v.set_dow("https://github.com/Under4groos/-Hardware/releases/tag/Hardware")
