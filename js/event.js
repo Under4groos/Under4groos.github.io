@@ -13,6 +13,9 @@ function open_github(){
 function open_discord(){
     window.open("https://discord.gg/H8PgdpT4kF","_blank")
 }
+function open_youtube(){
+    window.open("https://www.youtube.com/channel/UCgkPCLfQU1wxlFo8E8EhjxQ","_blank")
+}
 function view(imgsrc) {
     window.open(imgsrc,"_blank"); 
 }
